@@ -1,0 +1,9 @@
+{
+	"name": "invent-dataf",
+	"location": "westus2",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "5b94dacf-5ab4-4fee-91d7-f793ef22c880",
+		"tenantId": "9dafc21f-3327-4f4b-a0bf-bdd1d821481f"
+	}
+}
