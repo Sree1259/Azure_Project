@@ -1,0 +1,27 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "invent-dataf"
+		},
+		"AzureDataLakeStoragelinked_accountKey": {
+			"value": ""
+		},
+		"AzureDataLakeStoragelinked_properties_typeProperties_url": {
+			"value": "https://inventstoragedl.dfs.core.windows.net/"
+		},
+		"AzureKeyVault1_properties_typeProperties_baseUrl": {
+			"value": "https://invent-kv.vault.azure.net/"
+		},
+		"SqlServerLinked_properties_typeProperties_server": {
+			"value": "SREELEKHA\\SQLEXPRESS"
+		},
+		"SqlServerLinked_properties_typeProperties_database": {
+			"value": "AdventureWorksLT2012"
+		},
+		"SqlServerLinked_properties_typeProperties_userName": {
+			"value": "sree"
+		}
+	}
+}
