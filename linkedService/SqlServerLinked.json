@@ -20,7 +20,7 @@
 			}
 		},
 		"connectVia": {
-			"referenceName": "SelfhostedintegrationRuntime",
+			"referenceName": "shirstu",
 			"type": "IntegrationRuntimeReference"
 		}
 	}
