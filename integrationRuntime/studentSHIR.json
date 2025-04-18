@@ -1,0 +1,6 @@
+{
+	"name": "studentSHIR",
+	"properties": {
+		"type": "SelfHosted"
+	}
+}
