@@ -90,7 +90,7 @@
 							},
 							"inputs": [
 								{
-									"referenceName": "SqlServerTable1",
+									"referenceName": "SqlServerLinkage2",
 									"type": "DatasetReference"
 								}
 							],
