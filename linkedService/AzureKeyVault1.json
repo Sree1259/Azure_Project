@@ -4,7 +4,7 @@
 		"annotations": [],
 		"type": "AzureKeyVault",
 		"typeProperties": {
-			"baseUrl": "https://invent-kv.vault.azure.net/"
+			"baseUrl": "https://initialkv.vault.azure.net/"
 		}
 	}
 }
