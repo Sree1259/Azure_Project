@@ -1,0 +1,27 @@
+{
+	"name": "SqlServer1",
+	"properties": {
+		"annotations": [],
+		"type": "SqlServer",
+		"typeProperties": {
+			"server": "SREELEKHA\\SQLEXPRESS",
+			"database": "AdventureWorksLT2012",
+			"encrypt": "optional",
+			"trustServerCertificate": false,
+			"authenticationType": "SQL",
+			"userName": "sreelekha",
+			"password": {
+				"type": "AzureKeyVaultSecret",
+				"store": {
+					"referenceName": "AzureKeyVault1",
+					"type": "LinkedServiceReference"
+				},
+				"secretName": "pass"
+			}
+		},
+		"connectVia": {
+			"referenceName": "shirstu",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}
