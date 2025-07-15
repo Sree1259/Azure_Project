@@ -9,19 +9,19 @@
 			"encrypt": "optional",
 			"trustServerCertificate": false,
 			"authenticationType": "SQL",
-			"userName": "sreelekha",
+			"userName": "",
 			"password": {
-				"type": "AzureKeyVaultSecret",
+				"type": "",
 				"store": {
-					"referenceName": "AzureKeyVault1",
+					"referenceName": "",
 					"type": "LinkedServiceReference"
 				},
-				"secretName": "pass"
+				"secretName": ""
 			}
 		},
 		"connectVia": {
-			"referenceName": "shirstu",
-			"type": "IntegrationRuntimeReference"
+			"referenceName": "",
+			"type": ""
 		}
 	}
 }
